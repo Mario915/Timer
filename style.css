@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(in8LU7lm.jpg) no-repeat;
+    background-size: calc(676px + 3vw);
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    user-select: none;
+    max-width: 676px;
+    max-height: 1200px;
+    }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: #00000080;
+}
+
+.title {
+    font-size: calc(10px + 3vw);
+}
+
+.tittle p {
+    font-size: calc(10px + 1vh);
+    color: rgb(143, 143, 143);
+}
+
+.countdown {
+    display: flex;
+    width: 60Vw;
+    justify-content: space-between;
+}
+
+.countdown h1 {
+    font-size: calc(10px + 8vw);
+    text-shadow: 0 0 10px whitesmoke;
+}
+ .button {
+    background-color: rgba(95, 95, 95, 0.648);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: solid 2px whitesmoke;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    transition-delay: 0.01s;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px rgb(80, 183, 59);
+}
